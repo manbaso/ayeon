@@ -44,16 +44,15 @@
 
 name: 'Terraform'
 permissions:
-      id-token: write
-      contents: read
+  id-token: write
+  contents: read
 
 on:
   push:
     branches: [ "main" ]
   pull_request:
 
-permissions:
-  contents: read
+
 
 jobs:
   terraform:
